@@ -1,0 +1,30 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" expose-aside-when="large">
+    <ion-header-bar class="bar-stable">
+      <div class="title">Shekinah UAP</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header" ion-content="">
+      <ion-list>
+        <ion-item ui-sref="shekinah.novedades" menu-close="">Novedades</ion-item>
+        <ion-item ui-sref="shekinah.carpetas" menu-close="">Carpetas</ion-item>
+        <ion-item ui-sref="shekinah.ficha" menu-close="">Ficha personal</ion-item>
+        <ion-item ui-sref="shekinah.materiales" menu-close="">Material de Ayuda</ion-item>
+        <ion-item ui-sref="shekinah.direccion" menu-close="">Dirección</ion-item>
+        <ion-item ui-sref="shekinah.secretaria" menu-close="">Secretaría</ion-item>
+        <ion-item ui-sref="shekinah.instruccion" menu-close="">Instrucción</ion-item>
+        <ion-item ui-sref="shekinah.consejeria" menu-close="">Consejería</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
